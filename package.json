@@ -1,0 +1,36 @@
+{
+  "name": "fediverse-musicians-starter-pack",
+  "version": "1.0.0",
+  "description": "A simple blog, set up with Eleventy.",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "NODE_ENV=production eleventy",
+    "refresh": "node ./_scripts/refresh.mjs"
+  },
+  "dependencies": {
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "eleventy-plugin-seo": "0.5.2",
+    "luxon": "^3.4.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.2.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/fediverse-musicians-starter-pack"
+  },
+  "glitch": {
+    "projectType": "generated_static"
+  },
+  "license": "MIT",
+  "keywords": [
+    "fediverse",
+    "mastodon",
+    "starter-pack"
+  ]
+}
