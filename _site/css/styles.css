@@ -1,0 +1,36 @@
+:root {
+  --bs-heading-color: #424242 !important;
+}
+
+#back-to-top{
+  width: 10rem;
+  right: 0;
+  left: auto;
+  padding-left: 0 !important;
+}
+
+.footer-logos{
+  max-width: 400px;
+}
+
+.list {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px
+}
+
+.list-content {
+    width: 100%;
+    padding: 10px
+}
+
+#server-input-wrapper{
+  max-width: 900px;
+}

@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en"
+  class="h-100"
+  data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Fediverse Musicians Starter Pack 🎵</title>
+<meta name="description" content="Join the fediverse and enjoy some good tunes!"/>
+<meta property="og:title" content="Fediverse Musicians Starter Pack 🎵" />
+<meta property="og:description" content="Join the fediverse and enjoy some good tunes!" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://fediverse-musicians-starter-pack.glitch.me" />
+<meta property="og:image" content="https://cdn.glitch.global/59bf9808-077f-4445-aae4-eb0ce1ab6de5/fediverse-starter-pack.png?v=1729291205403" />
+<meta property="og:image:alt" content="A stylized drawing showing a close-up view of a person with closed eyes, smiling, and holding their hands close to their chest. The text &#39;Fediverse Starter Pack&#39; is superimposed on the image, with a heart behind it." />
+
+  <link rel="stylesheet"
+    href="/bootstrap/bootstrap.css" />
+  <link rel="stylesheet"
+    href="/css/styles.css" />
+  <script type="module"
+    src="/js/main.js"
+    defer></script>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <script>
+    const toggleDarkMode = (enabled) => {
+      const stickyTops = [...document.getElementsByClassName("sticky-top")];
+      if (enabled) {
+        document.body.setAttribute('data-bs-theme', 'dark');
+        if (stickyTops && stickyTops.length) {
+          stickyTops.forEach(stickyTop => {
+            stickyTop.classList.add("bg-dark");
+            stickyTop.classList.remove("bg-white");
+          });
+        }
+      } else {
+        document.body.setAttribute('data-bs-theme', 'light');
+        if (stickyTops && stickyTops.length) {
+          stickyTops.forEach(stickyTop => {
+            stickyTop.classList.add("bg-white");
+            stickyTop.classList.remove("bg-dark");
+          });
+        }
+      }
+    }
+    if (window.matchMedia) {
+      toggleDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+      toggleDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
+    });
+  </script>
+  <header class="text-center mt-5">
+    <h1 class="text-center mb-0">Fediverse Musicians Starter Pack 🎵</h1>
+    <p class="lead mt-0">Join the fediverse and enjoy some good tunes!</p>
+  </header>
+  <main class="flex-shrink-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div id="server-input-wrapper" class="mx-auto mt-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text">https://</span>
+              <input id="server" type="text" class="form-control" placeholder="mastodon.social">
+            </div>
+            <div class="form-text">If you already joined a server, you can put the name here to open the links below directly</div>
+          </div>
+        </div>
+        
+        <div class="col-12">
+          <h2 class="text-center my-5">Music discovery</h2>
+          <div class="row list">
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        <div class="flex-shrink-0">
+                          <a href="https://mastodon.social/@radiofreefedi@musician.social"
+                          data-username="@radiofreefedi@musician.social"  
+                          class="account-link text-decoration-none">
+                            <img
+                              loading="lazy"
+                              title="Profile image"
+                              alt="Profile image of radio scream fedi"
+                              class="post-author-image rounded-circle border"
+                              width="48"
+                              height="48"
+                              onerror="this.src='https://cdn.glitch.global/59bf9808-077f-4445-aae4-eb0ce1ab6de5/blank.png?v=1729290622679'"
+                              src="https://cdn.masto.host/musiciansocial/accounts/avatars/110/936/859/375/513/020/original/960b58f978f045eb.png">
+                          </a>
+                        </div>
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@radiofreefedi@musician.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@radiofreefedi@musician.social">radio scream fedi</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@radiofreefedi@musician.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@radiofreefedi@musician.social">
+                                <small>@radiofreefedi@musician.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        <div class="flex-shrink-0">
+                          <a href="https://mastodon.social/@labr@ravenation.club"
+                          data-username="@labr@ravenation.club"  
+                          class="account-link text-decoration-none">
+                            <img
+                              loading="lazy"
+                              title="Profile image"
+                              alt="Profile image of LABR"
+                              class="post-author-image rounded-circle border"
+                              width="48"
+                              height="48"
+                              onerror="this.src='https://cdn.glitch.global/59bf9808-077f-4445-aae4-eb0ce1ab6de5/blank.png?v=1729290622679'"
+                              src="https://media.ravenation.club/accounts/avatars/110/083/750/925/880/541/original/1902169ea481611c.jpg">
+                          </a>
+                        </div>
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@labr@ravenation.club"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@labr@ravenation.club">LABR</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@labr@ravenation.club"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@labr@ravenation.club">
+                                <small>@labr@ravenation.club</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        <div class="flex-shrink-0">
+                          <a href="https://mastodon.social/@musicweeklies@mastodon.social"
+                          data-username="@musicweeklies@mastodon.social"  
+                          class="account-link text-decoration-none">
+                            <img
+                              loading="lazy"
+                              title="Profile image"
+                              alt="Profile image of Music Weeklies Challenge"
+                              class="post-author-image rounded-circle border"
+                              width="48"
+                              height="48"
+                              onerror="this.src='https://cdn.glitch.global/59bf9808-077f-4445-aae4-eb0ce1ab6de5/blank.png?v=1729290622679'"
+                              src="https://files.mastodon.social/accounts/avatars/111/766/427/371/959/103/original/86206de6586d6fd7.jpeg">
+                          </a>
+                        </div>
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@musicweeklies@mastodon.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@musicweeklies@mastodon.social">Music Weeklies Challenge</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@musicweeklies@mastodon.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@musicweeklies@mastodon.social">
+                                <small>@musicweeklies@mastodon.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        <div class="flex-shrink-0">
+                          <a href="https://mastodon.social/@mixtape@nham.co.uk"
+                          data-username="@mixtape@nham.co.uk"  
+                          class="account-link text-decoration-none">
+                            <img
+                              loading="lazy"
+                              title="Profile image"
+                              alt="Profile image of @mixtape@nham.co.uk"
+                              class="post-author-image rounded-circle border"
+                              width="48"
+                              height="48"
+                              onerror="this.src='https://cdn.glitch.global/59bf9808-077f-4445-aae4-eb0ce1ab6de5/blank.png?v=1729290622679'"
+                              src="">
+                          </a>
+                        </div>
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@mixtape@nham.co.uk"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@mixtape@nham.co.uk">@mixtape@nham.co.uk</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@mixtape@nham.co.uk"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@mixtape@nham.co.uk">
+                                <small>@mixtape@nham.co.uk</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="col-12">
+          <h2 class="text-center my-5">Musicians</h2>
+          <div class="row list">
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@axwax@chaos.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@axwax@chaos.social">AxWax</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@axwax@chaos.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@axwax@chaos.social">
+                                <small>@axwax@chaos.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@brothersoul@mstdn.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@brothersoul@mstdn.social">Brother Soul</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@brothersoul@mstdn.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@brothersoul@mstdn.social">
+                                <small>@brothersoul@mstdn.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@cambraca@musicians.today"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@cambraca@musicians.today">Camilo Bravo :drumset:</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@cambraca@musicians.today"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@cambraca@musicians.today">
+                                <small>@cambraca@musicians.today</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@clive@saturation.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@clive@saturation.social">Clive Thompson</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@clive@saturation.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@clive@saturation.social">
+                                <small>@clive@saturation.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@coreysnipes@fosstodon.org"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@coreysnipes@fosstodon.org">𝑪𝒐𝒓𝒆𝒚 𝑺𝒏𝒊𝒑𝒆𝒔 🍂</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@coreysnipes@fosstodon.org"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@coreysnipes@fosstodon.org">
+                                <small>@coreysnipes@fosstodon.org</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@dgar@aus.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@dgar@aus.social">Dgar</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@dgar@aus.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@dgar@aus.social">
+                                <small>@dgar@aus.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@djsundog@toot-lab.reclaim.technology"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@djsundog@toot-lab.reclaim.technology">DJ Sundog - from the toot-lab</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@djsundog@toot-lab.reclaim.technology"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@djsundog@toot-lab.reclaim.technology">
+                                <small>@djsundog@toot-lab.reclaim.technology</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@disquiet@post.lurk.org"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@disquiet@post.lurk.org">disquiet</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@disquiet@post.lurk.org"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@disquiet@post.lurk.org">
+                                <small>@disquiet@post.lurk.org</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@etherdiver@ravenation.club"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@etherdiver@ravenation.club">Ether Diver</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@etherdiver@ravenation.club"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@etherdiver@ravenation.club">
+                                <small>@etherdiver@ravenation.club</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@ethicalrevolution@climatejustice.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@ethicalrevolution@climatejustice.social">Sam (Ethical Revolution) 🌱✌️</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@ethicalrevolution@climatejustice.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@ethicalrevolution@climatejustice.social">
+                                <small>@ethicalrevolution@climatejustice.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@fredbrooker@witter.cz"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@fredbrooker@witter.cz">Fred Brooker</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@fredbrooker@witter.cz"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@fredbrooker@witter.cz">
+                                <small>@fredbrooker@witter.cz</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@mcmullin@musicians.today"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@mcmullin@musicians.today">David McMullin</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@mcmullin@musicians.today"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@mcmullin@musicians.today">
+                                <small>@mcmullin@musicians.today</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@meljoann@topspicy.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@meljoann@topspicy.social">Meljoann</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@meljoann@topspicy.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@meljoann@topspicy.social">
+                                <small>@meljoann@topspicy.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@NadiaPurge@musician.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@NadiaPurge@musician.social">NadiaPurge</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@NadiaPurge@musician.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@NadiaPurge@musician.social">
+                                <small>@NadiaPurge@musician.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@randulo@mastodon.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@randulo@mastodon.social">Randulo.com</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@randulo@mastodon.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@randulo@mastodon.social">
+                                <small>@randulo@mastodon.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@setto@v.basspistol.org"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@setto@v.basspistol.org">@setto@v.basspistol.org</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@setto@v.basspistol.org"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@setto@v.basspistol.org">
+                                <small>@setto@v.basspistol.org</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@Tijn@dosgame.club"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@Tijn@dosgame.club">Martijn Frazer</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@Tijn@dosgame.club"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@Tijn@dosgame.club">
+                                <small>@Tijn@dosgame.club</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@tinelinen@mastodon.gamedev.place"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@tinelinen@mastodon.gamedev.place">Tine Schenck</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@tinelinen@mastodon.gamedev.place"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@tinelinen@mastodon.gamedev.place">
+                                <small>@tinelinen@mastodon.gamedev.place</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3 p-1 list-item">
+              <div class="card w-100">
+                <div class="card-body pt-4 pb-0">
+                  <div class="card-text">
+                    <div class="row no-gutters mb-1">
+                      <div class="d-flex">
+                        
+                        
+                        <div class="flex-grow-1 ms-3">
+                          <div class="post-author text-break pb-3">
+                            <p class="font-weight-bold mb-0 mt-0">
+                              <a
+                              data-username="@uncanny_static@chaos.social"
+                              class="account-link text-decoration-none text-break"
+                                href="https://mastodon.social/@uncanny_static@chaos.social">Hannah</a>
+                            </p>
+                            <p class="mb-1 mb-md-2 mt-0 fs-6 text-break">
+                              <a
+                              data-username="@uncanny_static@chaos.social"
+                              class="account-link text-muted text-decoration-none"
+                                href="https://mastodon.social/@uncanny_static@chaos.social">
+                                <small>@uncanny_static@chaos.social</small>
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="container mt-5">
+      <p>Visit <a href="https://instances.social/">instances.social</a> or <a href="https://fedi.garden/">fedi.garden</a> to find a server that fits your preferences.</p>
+
+      <p class="text-center mt-5">
+        <a class="btn btn-secondary" href="https://fediverse-musicians-starter-pack.glitch.me/starter-pack.csv" onclick="alert('Be sure to merge this list when importing it, instead of overwriting your existing follows!')">
+          Download all as CSV
+        </a>
+        
+      </p>
+    </div>
+  </main>
+  <footer class="footer mt-auto py-5 ">
+    <div class="container pt-3 text-center">
+      <p class="text-body-secondary">
+        Created by
+        <a class="text-body-secondary"
+          href="https://stefanbohacek.online/@stefan">@stefan</a>
+        with
+        <a class="text-body-secondary"
+          href="https://glitch.com/">Glitch</a> and
+        <a class="text-body-secondary"
+          href="https://www.11ty.dev/">11ty</a>.
+        <a class="text-body-secondary"
+          href="https://glitch.com/edit/#!/fediverse-musicians-starter-pack">View source</a>
+      </p>
+    </div>
+    <a id="back-to-top"
+      class="fixed-bottom btn btn-secondary rounded-bottom-0 d-none pl-0"
+      role="button"
+      href="#"
+      title="Back to Top">
+      <svg xmlns="http://www.w3.org/2000/svg"
+        viewbox="0 0 512 512"
+        width="1em"
+        height="1em"
+        fill="currentColor">
+        <!--! Font Awesome Free 6.4.2  -->
+        <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6
+            342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"></path>
+      </svg>
+      <small class="fw-bold">Back to top</small>
+    </a>
+  </footer>
+</body>
+
+</html>

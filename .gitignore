@@ -1,0 +1,5 @@
+.glitchdotcom.json
+build/
+node_modules/
+web_modules/
+_data/accounts-data.json

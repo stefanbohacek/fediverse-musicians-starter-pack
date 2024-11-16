@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Music discovery",
+    "avatars": true,
+    "accounts": [
+      "@radiofreefedi@musician.social",
+      "@labr@ravenation.club",
+      "@audiointerface@mastodon.social",
+      "@mixtape@nham.co.uk",
+      "@musicweeklies@mastodon.social"
+    ]
+  },
+  {
+    "title": "Musicians",
+    "avatars": false,
+    "accounts": [
+      "@axwax@chaos.social",
+      "@brothersoul@mstdn.social",
+      "@cambraca@musicians.today",
+      "@clive@saturation.social",
+      "@coreysnipes@fosstodon.org",
+      "@dgar@aus.social",
+      "@djsundog@toot-lab.reclaim.technology",
+      "@disquiet@post.lurk.org",
+      "@etherdiver@ravenation.club",
+      "@ethicalrevolution@climatejustice.social",
+      "@fredbrooker@witter.cz",
+      "@mcmullin@musicians.today",
+      "@meljoann@topspicy.social",
+      "@NadiaPurge@musician.social",
+      "@randulo@mastodon.social",
+      "@setto@v.basspistol.org",
+      "@stefan@stefanbohacek.online",
+      "@Tijn@dosgame.club",
+      "@tinelinen@mastodon.gamedev.place",
+      "@uncanny_static@chaos.social",
+      "@xylander@mastodon.social"
+    ]
+  }
+]
